@@ -21,6 +21,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "example" {
-  name     = "prit-rg"
+  name     = "prit-rg-test"
   location = "Canada Central"
 }
