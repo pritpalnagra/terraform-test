@@ -3,7 +3,7 @@ terraform {
     organization = "pritpal-org"
 
     workspaces {
-      name = "aks-prod"
+      name = "prit-workspace"
     }
   }
 }
