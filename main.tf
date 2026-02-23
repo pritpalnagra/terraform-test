@@ -1,11 +1,5 @@
 terraform {
-  cloud {
-    organization = "Pritpal-org"
-    workspaces {
-      name = "prit-workspace"
-    }
-  }
-
+  
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
